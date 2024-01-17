@@ -5,8 +5,7 @@ import pandas as pd
 #Pybank assignment
 
 #Reading in the CSV file
-budget_data = pd.read_csv("C:/Users/jaypa/OneDrive/Documents/UofT Bootcamp/Module 3/python_challenge/PyBank/Resources/budget_data.csv")
-print(budget_data)
+budget_data = pd.read_csv("C:/Users/jaypa/OneDrive/Documents/GitHub/UofT Bootcamp/python_challenge/PyBank/Resources/budget_data.csv")
 
 #Total number of months in the dataset
 month_amount = budget_data["Date"].nunique()
@@ -32,4 +31,7 @@ print(f"Average changes in Profit/Losses over the entire period ${average_change
 print(f"Greatest increase in Profit/Losses over the entire period ${max_change} - at date {date_max}")
 print(f"Greatest decrease in Profit/Losses over the entire period ${min_change} - at date {date_min}")
 
+#Pypoll assignment
 
+#Reading in the CSV file
+poll_data = pd.read_csv("C:/Users/jaypa/OneDrive/Documents/GitHub/UofT Bootcamp/python_challenge/PyPoll/Resources/election_data.csv")
