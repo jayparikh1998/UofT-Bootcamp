@@ -1,0 +1,5 @@
+The total number of months in the dataset is 86
+The net total amount of Profit/Losses over the entire period is $22564198
+Average changes in Profit/Losses over the entire period $-8311.11
+Greatest increase in Profit/Losses over the entire period $1862002.0 - at date Aug-16
+Greatest decrease in Profit/Losses over the entire period $-1825558.0 - at date Feb-14

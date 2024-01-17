@@ -31,6 +31,21 @@ print(f"Average changes in Profit/Losses over the entire period ${average_change
 print(f"Greatest increase in Profit/Losses over the entire period ${max_change} - at date {date_max}")
 print(f"Greatest decrease in Profit/Losses over the entire period ${min_change} - at date {date_min}")
 
+# Prepare the string to write to the file
+month = f"The total number of months in the dataset is {month_amount}\n"
+net = f"The net total amount of Profit/Losses over the entire period is ${net_total_amount}\n"
+avrg = f"Average changes in Profit/Losses over the entire period ${average_change:.2f}\n"
+max = f"Greatest increase in Profit/Losses over the entire period ${max_change} - at date {date_max}\n"
+min = f"Greatest decrease in Profit/Losses over the entire period ${min_change} - at date {date_min}\n"
+
+# Write to a text file
+with open('C:/Users/jaypa/OneDrive/Documents/GitHub/UofT Bootcamp/python_challenge/PyBank.txt', 'w') as file:
+    file.write(month)
+    file.write(net)
+    file.write(avrg)
+    file.write(max)
+    file.write(min)
+
 #Pypoll assignment
 
 #Reading in the CSV file
@@ -52,4 +67,13 @@ winner = result.index[result['Count'] == popular_vote].tolist()[0]
 
 print(f"The total number of votes casted in the dataset is {total_votes}")
 print(result)
-print(f"The winner of the election based on populat vote is {winner}")
+print(f"The winner of the election based on popular vote is {winner}")
+
+votes = f"The total number of votes casted in the dataset is {total_votes}\n"
+win = f"The winner of the election based on popular vote is {winner}\n"
+
+# Write to a text file
+with open('C:/Users/jaypa/OneDrive/Documents/GitHub/UofT Bootcamp/python_challenge/PyPoll.txt', 'w') as file:
+    file.write(votes)
+    file.write(result.to_string() + "\n")
+    file.write(win)
