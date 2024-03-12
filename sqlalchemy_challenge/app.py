@@ -8,7 +8,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Database Setup
-engine = create_engine("sqlite:///Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 Station = Base.classes.station
