@@ -5,6 +5,8 @@ from sqlalchemy.ext.automap import automap_base
 import datetime as dt
 import numpy as np
 
+from sqlalchemy import create_engine, inspect
+
 app = Flask(__name__)
 
 # Database Setup
