@@ -1,10 +1,10 @@
-##Mars Weather Analysis
+## Mars Weather Analysis
 This project involves scraping, processing, and analyzing weather data from Mars, specifically focusing on data transmitted by the Curiosity rover. The goal is to gain insights into the Martian environment, such as temperature variations and atmospheric pressure changes over time.
 
-##Data Source
+## Data Source
 The data is scraped from the Mars Temperature Data Site (link). This site provides detailed temperature and pressure readings taken by the Curiosity rover.
 
-##Tools and Libraries
+## Tools and Libraries
 Python: The primary programming language used for this analysis.
 BeautifulSoup: Used for web scraping to extract weather data from the website.
 Pandas: Utilized for data manipulation and analysis.
@@ -24,9 +24,9 @@ Visualization: Plots are generated to visualize the average minimum daily temper
 
 Exporting Data: The final DataFrame is exported to a CSV file for potential further analysis or external usage.
 
-##Key Findings
+## Key Findings
 The analysis provides an estimation of the number of months on Mars and the amount of data (in Martian days) collected.
 Temperature and pressure trends are observed and plotted to identify seasonal variations on Mars.
 The dataset helps estimate the length of a Martian year in Earth days through temperature pattern analysis.
-Usage
+## Usage
 To run the analysis, ensure you have Python installed along with the required libraries mentioned above. Run the Jupyter Notebook part_2_mars_weather.ipynb to execute the analysis steps. The notebook is well-documented, guiding through each step of the process.
