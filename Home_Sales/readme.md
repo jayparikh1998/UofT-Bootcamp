@@ -58,7 +58,3 @@ Data is saved as Parquet files, partitioned by the `date_built` field.
 - Hadoop binaries
 - Java 8 or 11
 
-## Author
-
-- Your Name - [Your GitHub Profile](https://github.com/your-username)
-
